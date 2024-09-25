@@ -11,3 +11,27 @@
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,900i" rel="stylesheet" />
 </head>
+<body>
+    <header>
+        <h1>Informant Map Version 2</h1>
+    </header>
+    <section>
+        <div id="map"></div>
+    </section>
+</body>
+<!-- Add Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+    var map = L.map('map', {
+        center: [58.73, 25.67], // centered in Estonia
+        zoom: 7
+    });
+
+    var tiles = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/dark_all/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+        subdomains: 'abcd',
+        maxZoom: 19
+    });
+    tiles.addTo(map);
+</script>
