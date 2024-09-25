@@ -27,10 +27,11 @@
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
     var map = L.map('map', {
-        center: [58.73, 25.67], // centered in Estonia
-        zoom: 7
+        zoomSnap: .1,
+        center: [36, -82.5],
+        zoom: 4.5
     });
-
+    
     var tiles = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/dark_all/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
         subdomains: 'abcd',
