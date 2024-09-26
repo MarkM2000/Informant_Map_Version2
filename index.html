@@ -46,24 +46,24 @@
             return L.circleMarker(latlng, {
                 color: '#1f78b4',
                 weight: 1,
-                fillColor: '#1f78b4',
+                fillColor: '#cccccc',
                 fillOpacity: .8,
                 radius: 10
             });
         },
         onEachFeature: function (feature, layer) {
-            layer.bindTooltip(layer.feature.properties.SEX);
+            layer.bindTooltip(layer.feature.properties.Sex);
 
             layer.on('mouseover', function () {
                 // code goes in here
                 layer.setStyle({
-                    fillColor: 'red'
+                    fillColor: 'gray'
                 });
             });
             layer.on('mouseout', function () {
                 // code goes in here
                 layer.setStyle({
-                    fillColor: '#1f78b4'
+                    fillColor: '#cccccc'
                 });
             });
         }
@@ -75,7 +75,7 @@
     }
 
     var sourcesLayers = {
-        "<b style='color:#1f78b4'>Gender</b>": gender
+        "<b style='color:#cccccc'>Gender</b>": gender
     }
 
     // BEGIN WRITING YOUR SOLUTION CODE HERE
