@@ -25,6 +25,8 @@
 <!-- Add Leaflet JS -->
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<!-- Add JS files-->
+<script src="js/gender.js"></script>    
 <script>
     var map = L.map('map', {
         zoomSnap: .1,
@@ -79,21 +81,7 @@
     // BEGIN WRITING YOUR SOLUTION CODE HERE
     map.on('click', function (e) {
         console.log(e.latlng) // access to the click coordinates
-        stores.eachLayer(function (layer) {
-            console.log(layer.getLatLng()); // access to the layer coordinates
-        });
-    });
-
-    map.on('click', function (e) {
-        console.log(e.latlng) // access to the click coordinates
-        stations.eachLayer(function (layer) {
-            console.log(layer.getLatLng()); // access to the layer coordinates
-        });
-    });
-
-    map.on('click', function (e) {
-        console.log(e.latlng) // access to the click coordinates
-        programs.eachLayer(function (layer) {
+        gender.eachLayer(function (layer) {
             console.log(layer.getLatLng()); // access to the layer coordinates
         });
     });
