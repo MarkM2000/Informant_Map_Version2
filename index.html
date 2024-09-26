@@ -42,6 +42,12 @@
     });
     tiles.addTo(map);
 
+    var commonStyles = {
+        weight: 1,
+        stroke: 1,
+        fillOpacity: .8
+    }
+
     // Adding variables for checkboxes
     var gender = L.geoJson(gender, {
         pointToLayer: function (feature, latlng) {
