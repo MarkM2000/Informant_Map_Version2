@@ -98,6 +98,10 @@
         }
     }).addTo(map);
 
+    L.control.layers(null, sourcesLayers, {
+        collapsed: false
+    }).addTo(map);
+
     // GeoJSon Layers
     var sourcesLabels = {
         "gender": gender,
@@ -106,7 +110,7 @@
 
     var sourcesLayers = {
         "<b style='color:#cccccc'>Gender</b>": gender,
-        "<b style='color:#1c375b'>Education</b>": education        
+        "<b style='color:#1c375b'>Education</b>": education
     }
 
     // BEGIN WRITING YOUR SOLUTION CODE HERE
