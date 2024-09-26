@@ -30,6 +30,7 @@
 <script src="js/education.js"></script>
 <script src="js/occupation.js"></script>
 <script src="js/ethnicity.js"></script>
+<script src="js/fieldworker-year.js"></script>
 <script>
     var map = L.map('map', {
         zoomSnap: .1,
@@ -162,6 +163,33 @@
         }
     }).addTo(map);
 
+    var fieldworker = L.geoJson(fieldworker, {
+        pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, {
+                color: '#1f78b4',
+                weight: 1,
+                fillColor: '#f2e9d8',
+                fillOpacity: .8,
+                radius: 10
+            });
+        },
+        onEachFeature: function (feature, layer) {
+            layer.bindTooltip(layer.feature.properties.Fieldworker);
+            layer.on('mouseover', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: 'brown'
+                });
+            });
+            layer.on('mouseout', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#f2e9d8'
+                });
+            });
+        }
+    }).addTo(map);
+
     L.control.layers(null, sourcesLayers, {
         collapsed: false
     }).addTo(map);
@@ -171,14 +199,16 @@
         "gender": gender,
         "ethnicity": ethnicity,
         "education": education,
-        "occupation": occupation
+        "occupation": occupation,
+        "fieldworker": fieldworker
     }
 
     var sourcesLayers = {
         "<b style='color:#000000'>Gender</b>": gender,
         "<b style='color:#000000'>Ethnicity</b>": ethnicity,
         "<b style='color:#000000'>Education</b>": education,
-        "<b style='color:#000000'>Occupation</b>": occupation
+        "<b style='color:#000000'>Occupation</b>": occupation,
+        "<b style='color:#000000'>Fieldworker</b>": fieldworker       
     }
 
     L.control.layers(null, sourcesLayers, {
@@ -210,6 +240,13 @@
     map.on('click', function (e) {
         console.log(e.latlng) // access to the click coordinates
         ethnicity.eachLayer(function (layer) {
+            console.log(layer.getLatLng()); // access to the layer coordinates
+        });
+    });
+
+    map.on('click', function (e) {
+        console.log(e.latlng) // access to the click coordinates
+        fieldworker.eachLayer(function (layer) {
             console.log(layer.getLatLng()); // access to the layer coordinates
         });
     });
