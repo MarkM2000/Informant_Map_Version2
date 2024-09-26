@@ -120,18 +120,22 @@
         "<b style='color:#1c375b'>Education</b>": education
     }
 
+    L.control.layers(null, sourcesLayers, {
+      collapsed: false
+    }).addTo(map);
+
     // BEGIN WRITING YOUR SOLUTION CODE HERE
     map.on('click', function (e) {
-        console.log(e.latlng) // access to the click coordinates
-        gender.eachLayer(function (layer) {
-            console.log(layer.getLatLng()); // access to the layer coordinates
-        });
+      console.log(e.latlng) // access to the click coordinates
+      gender.eachLayer(function (layer) {
+        console.log(layer.getLatLng()); // access to the layer coordinates
+      });
     });
 
     map.on('click', function (e) {
-        console.log(e.latlng) // access to the click coordinates
-        education.eachLayer(function (layer) {
-            console.log(layer.getLatLng()); // access to the layer coordinates
-        });
+      console.log(e.latlng) // access to the click coordinates
+      education.eachLayer(function (layer) {
+        console.log(layer.getLatLng()); // access to the layer coordinates
+      });
     });
 </script>
