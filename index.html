@@ -26,7 +26,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <!-- Add JS files-->
-<script src="js/gender.js"></script>    
+<script src="js/gender.js"></script>
 <script>
     var map = L.map('map', {
         zoomSnap: .1,
@@ -41,6 +41,7 @@
     });
     tiles.addTo(map);
 
+    // Adding variables for checkboxes
     var gender = L.geoJson(gender, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, {
