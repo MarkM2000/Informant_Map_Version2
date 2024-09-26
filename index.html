@@ -73,6 +73,28 @@
     }
 
     var sourcesLayers = {
-      "<b style='color:#1f78b4'>Gender</b>": gender,
+        "<b style='color:#1f78b4'>Gender</b>": gender
     }
+
+    // BEGIN WRITING YOUR SOLUTION CODE HERE
+    map.on('click', function (e) {
+        console.log(e.latlng) // access to the click coordinates
+        stores.eachLayer(function (layer) {
+            console.log(layer.getLatLng()); // access to the layer coordinates
+        });
+    });
+
+    map.on('click', function (e) {
+        console.log(e.latlng) // access to the click coordinates
+        stations.eachLayer(function (layer) {
+            console.log(layer.getLatLng()); // access to the layer coordinates
+        });
+    });
+
+    map.on('click', function (e) {
+        console.log(e.latlng) // access to the click coordinates
+        programs.eachLayer(function (layer) {
+            console.log(layer.getLatLng()); // access to the layer coordinates
+        });
+    });
 </script>
