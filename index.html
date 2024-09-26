@@ -120,4 +120,11 @@
             console.log(layer.getLatLng()); // access to the layer coordinates
         });
     });
+
+    map.on('click', function (e) {
+        console.log(e.latlng) // access to the click coordinates
+        education.eachLayer(function (layer) {
+            console.log(layer.getLatLng()); // access to the layer coordinates
+        });
+    });
 </script>
