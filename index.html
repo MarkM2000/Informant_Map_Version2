@@ -79,6 +79,34 @@
         }
     }).addTo(map);
 
+    var ethnicity = L.geoJson(ethnicity, {
+        pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, {
+                color: '#1f78b4',
+                weight: 1,
+                fillColor: '#FFFFFF',
+                fillOpacity: .8,
+                radius: 10
+            });
+        },
+        onEachFeature: function (feature, layer) {
+            layer.bindTooltip(layer.feature.properties.Ethnicity);
+
+            layer.on('mouseover', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: 'gray'
+                });
+            });
+            layer.on('mouseout', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#cccccc'
+                });
+            });
+        }
+    }).addTo(map);
+
     var education = L.geoJson(education, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, {
@@ -134,34 +162,6 @@
         }
     }).addTo(map);
 
-    var ethnicity = L.geoJson(ethnicity, {
-        pointToLayer: function (feature, latlng) {
-            return L.circleMarker(latlng, {
-                color: '#1f78b4',
-                weight: 1,
-                fillColor: '#FFFFFF',
-                fillOpacity: .8,
-                radius: 10
-            });
-        },
-        onEachFeature: function (feature, layer) {
-            layer.bindTooltip(layer.feature.properties.Ethnicity);
-
-            layer.on('mouseover', function () {
-                // code goes in here
-                layer.setStyle({
-                    fillColor: 'gray'
-                });
-            });
-            layer.on('mouseout', function () {
-                // code goes in here
-                layer.setStyle({
-                    fillColor: '#cccccc'
-                });
-            });
-        }
-    }).addTo(map);
-
     L.control.layers(null, sourcesLayers, {
         collapsed: false
     }).addTo(map);
@@ -169,16 +169,16 @@
     // GeoJSon Layers
     var sourcesLabels = {
         "gender": gender,
+        "ethnicity": ethnicity,
         "education": education,
-        "occupation": occupation,
-        "ethnicity": ethnicity
+        "occupation": occupation
     }
 
     var sourcesLayers = {
         "<b style='color:#000000'>Gender</b>": gender,
+        "<b style='color:#000000'>Ethnicity</b>": ethnicity,
         "<b style='color:#000000'>Education</b>": education,
-        "<b style='color:#000000'>Occupation</b>": occupation,
-        "<b style='color:#000000'>Ethnicity</b>": ethnicity
+        "<b style='color:#000000'>Occupation</b>": occupation
     }
 
     L.control.layers(null, sourcesLayers, {
