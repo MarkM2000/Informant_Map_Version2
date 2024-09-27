@@ -78,7 +78,23 @@
                     fillColor: '#B31942'
                 });
             });
-        }
+        },
+        onEachFeature: function (feature, layer) {
+            layer.bindTooltip(layer.feature.properties.Project);
+
+            layer.on('mouseover', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: 'red'
+                });
+            });
+            layer.on('mouseout', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#B31942'
+                });
+            });
+        }     
     }).addTo(map);
 
     var gender = L.geoJson(gender, {
@@ -216,7 +232,7 @@
                     fillColor: '#f2e9d8'
                 });
             });
-        }
+        },
     }).addTo(map);
 
     L.control.layers(null, sourcesLayers, {
