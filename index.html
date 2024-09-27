@@ -64,7 +64,7 @@
             });
         },
         onEachFeature: function (feature, layer) {
-            layer.bindTooltip(layer.feature.properties.Informant);
+            layer.bindTooltip(layer.feature.properties.Informant.Project);
 
             layer.on('mouseover', function () {
                 // code goes in here
