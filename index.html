@@ -206,7 +206,17 @@
             });
         },
         onEachFeature: function (feature, layer) {
-            layer.bindTooltip(layer.feature.properties.Fieldworker);
+            const props = feature.properties
+            const popup = `
+					<b>${props.Fieldworker}</b><br>
+					Year Interviewed: ${props.Year_interviewed}<br>
+				`
+            layer.bindTooltip(popup, {
+                className: 'tool-fieldworker'
+            });
+
+            console.log(layer.feature.properties)
+
             layer.on('mouseover', function () {
                 // code goes in here
                 layer.setStyle({
