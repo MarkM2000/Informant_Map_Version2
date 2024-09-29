@@ -100,6 +100,34 @@
         }
     }).addTo(map);
 
+    var project = L.geoJson(project, {
+        pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, {
+                color: '#1f78b4',
+                weight: 1,
+                fillColor: '#B31942',
+                fillOpacity: .8,
+                radius: 10
+            });
+        },
+        onEachFeature: function (feature, layer) {
+            layer.bindTooltip(layer.feature.properties.Project);
+
+            layer.on('mouseover', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: 'red'
+                });
+            });
+            layer.on('mouseout', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#B31942'
+                });
+            });
+        }
+    }).addTo(map);
+
     var gender = L.geoJson(gender, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, {
@@ -253,7 +281,7 @@
     }
 
     var sourcesLayers = {
-        "<b style='color:#000000'>Informant (Project)</b>": informant, 
+        "<b style='color:#000000'>Informant (Project)</b>": informant,
         "<b style='color:#000000'>Gender</b>": gender,
         "<b style='color:#000000'>Ethnicity</b>": ethnicity,
         "<b style='color:#000000'>Education</b>": education,
@@ -269,6 +297,9 @@
     map.on('click', function (e) {
         console.log(e.latlng) // access to the click coordinates
         informant.eachLayer(function (layer) {
+            console.log(layer.getLatLng()); // access to the layer coordinates
+        });
+        project.eachLayer(function (layer) {
             console.log(layer.getLatLng()); // access to the layer coordinates
         });
     });
