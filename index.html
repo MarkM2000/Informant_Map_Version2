@@ -222,7 +222,7 @@
             });
         },
         onEachFeature: function (feature, layer) {
-            layer.bindTooltip(layer.feature.properties.Fieldworker);
+            layer.bindTooltip(layer.feature.properties.Fieldworker.Year_interviewed);
             layer.on('mouseover', function () {
                 // code goes in here
                 layer.setStyle({
