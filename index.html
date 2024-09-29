@@ -110,18 +110,6 @@
                 radius: 10
             });
         },
-        filter: function (feature) {
-            if (feature.properties.Sex.Male) {
-                return feature;
-            }
-        },
-        style: function (feature) {
-            return {
-                color: '#Ec3aaa',
-                fillColor: '#Ec3aaa',
-                radius: getRadius(feature.properties.Sex.Female)
-            }
-        },
         onEachFeature: function (feature, layer) {
             layer.bindTooltip(layer.feature.properties.Sex);
 
@@ -265,7 +253,7 @@
     }
 
     var sourcesLayers = {
-        "<b style='color:#000000'>Informant (Project)</b>": informant,
+        "<b style='color:#000000'>Informant (Project)</b>": informant, 
         "<b style='color:#000000'>Gender</b>": gender,
         "<b style='color:#000000'>Ethnicity</b>": ethnicity,
         "<b style='color:#000000'>Education</b>": education,
