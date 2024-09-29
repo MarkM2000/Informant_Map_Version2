@@ -222,7 +222,7 @@
             });
         },
         onEachFeature: function (feature, layer) {
-            layer.bindTooltip(layer.feature.properties.Fieldworker.Year_interviewed);
+            layer.bindTooltip(layer.feature.properties.Fieldworker);
             layer.on('mouseover', function () {
                 // code goes in here
                 layer.setStyle({
@@ -253,12 +253,12 @@
     }
 
     var sourcesLayers = {
-        "<b style='color:#000000'>Informant</b>": informant,
+        "<b style='color:#000000'>Informant (Project)</b>": informant,
         "<b style='color:#000000'>Gender</b>": gender,
         "<b style='color:#000000'>Ethnicity</b>": ethnicity,
         "<b style='color:#000000'>Education</b>": education,
         "<b style='color:#000000'>Occupation</b>": occupation,
-        "<b style='color:#000000'>Fieldworker</b>": fieldworker
+        "<b style='color:#000000'>Fieldworker (Year interviewed)</b>": fieldworker
     }
 
     L.control.layers(null, sourcesLayers, {
