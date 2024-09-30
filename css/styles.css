@@ -2,9 +2,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #dde5e7;
-    font-family: 'Lato', sans-serif;
+    font-family: 'PT Serif', serif;
     /* change made here */
-    font-weight: 300;
+    font-weight: 700;
     /* addition here */
     color: #000000;
     font-size: 100%;
@@ -23,12 +23,14 @@ h1 {
 }
 
 h2 {
+    font-style: normal;
     font-size: 2em;
     letter-spacing: .04em;
 }
 
 /* body elements */
 p {
+    font-style: normal;
     font-size: 1.1em;
     line-height: 1.5em;
 }
