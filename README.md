@@ -3,7 +3,7 @@ This repository will be Version 2 of the Informant Map.
 
 ## How This Map Was Created
 This is the variable for informant, which looks something like this:
-```html
+```
     // Adding variables for checkboxes
     var informant = L.geoJson(informant, {
         pointToLayer: function (feature, latlng) {
