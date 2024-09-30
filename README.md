@@ -41,7 +41,7 @@ This is the variable for informant, which looks something like this:
     }).addTo(map);
 ```
 
-To add a checkmark that includes both the `informant` and `project`, add this:
+To add a checkmark that includes both the `informant` and `project` for the props, add this:
 ``` 
         onEachFeature: function (feature, layer) {
             const props = feature.properties
@@ -66,4 +66,6 @@ To add a checkmark that includes both the `informant` and `project`, add this:
                 });
             });
         },
-```        
+```
+
+I did the same thing for the `fieldworker` variable. The props include `Fieldworker` and `Year_interviewed`.
