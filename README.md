@@ -38,7 +38,8 @@ This is the variable for informant, which looks something like this:
                 });
             });
         },
-    }).addTo(map); ```
+    }).addTo(map);
+```
 
 To add a checkmark that includes both the `informant` and `project`, add this:
 ``` 
