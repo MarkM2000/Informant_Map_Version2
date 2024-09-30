@@ -39,3 +39,30 @@ This is the variable for informant, which looks something like this:
             });
         },
     }).addTo(map); ```
+
+To add a checkmark that includes both the `informant` and `project`, add this:
+``` 
+        onEachFeature: function (feature, layer) {
+            const props = feature.properties
+            const popup = `
+					<b>${props.Informant}</b>
+					<br>Project: ${props.Project}<br>
+				`
+            layer.bindTooltip(popup, {
+                className: 'tool-informant'
+            });
+
+            layer.on('mouseover', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: 'red'
+                });
+            });
+            layer.on('mouseout', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#B31942'
+                });
+            });
+        },
+```        
