@@ -1,7 +1,7 @@
 # Informant_Map_Version2
 This repository will be Version 2 of the Informant Map.
 
-## How This Map Was Created
+## How I Created The Informant and Fieldworker Checkboxes
 This is the variable for informant, which looks something like this:
 ```
     // Adding variables for checkboxes
