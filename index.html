@@ -28,12 +28,13 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <!-- Add JS files-->
-<script src="js/informant.js"></script>
-<script src="js/gender.js"></script>
-<script src="js/gender/female.js"></script>
-<script src="js/ethnicity.js"></script>
-<script src="js/education.js"></script>
-<script src="js/occupation.js"></script>
+<script src="assets/"></script>
+<script src="assets/gender.js"></script>
+<script src="assets/gender/female.js"></script>
+<script src="assets/gender/male.js"></script>
+<script src="assets/ethnicity.js"></script>
+<script src="assets/education.js"></script>
+<script src="assets/occupation.js"></script>
 <script>
     var map = L.map('map', {
         zoomSnap: .1,
@@ -113,6 +114,62 @@
                 // code goes in here
                 layer.setStyle({
                     fillColor: '#613c33'
+                });
+            });
+        }
+    }).addTo(map);
+
+    var female = L.geoJson(female, {
+        pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, {
+                color: '#ffa9d0',
+                weight: 1,
+                fillColor: '#ffa9d0',
+                fillOpacity: .8,
+                radius: 10
+            });
+        },
+        onEachFeature: function (feature, layer) {
+            layer.bindTooltip(layer.feature.properties.Sex);
+
+            layer.on('mouseover', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: 'purple'
+                });
+            });
+            layer.on('mouseout', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#ffa9d0'
+                });
+            });
+        }
+    }).addTo(map);
+
+    var male = L.geoJson(male, {
+        pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, {
+                color: '#2986cc',
+                weight: 1,
+                fillColor: '#2986cc',
+                fillOpacity: .8,
+                radius: 10
+            });
+        },
+        onEachFeature: function (feature, layer) {
+            layer.bindTooltip(layer.feature.properties.Sex);
+
+            layer.on('mouseover', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: 'blue'
+                });
+            });
+            layer.on('mouseout', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#2986cc'
                 });
             });
         }
@@ -205,6 +262,8 @@
     var sourcesLabels = {
         "informant": informant,
         "gender": gender,
+        "female": female,
+        "male": male,
         "ethnicity": ethnicity,
         "education": education,
         "occupation": occupation,
@@ -213,6 +272,8 @@
     var sourcesLayers = {
         "<b style='color:#000000'>Informant (Project)</b>": informant,        
         "<b style='color:#000000'>Gender</b>": gender,
+        "<b style='color:#ffa9d0'>Female</b>": female,
+        "<b style='color:#2986cc'>Male</b>": male,
         "<b style='color:#000000'>Ethnicity</b>": ethnicity,
         "<b style='color:#000000'>Education</b>": education,
         "<b style='color:#000000'>Occupation</b>": occupation,
@@ -233,6 +294,12 @@
     map.on('click', function (e) {
         console.log(e.latlng) // access to the click coordinates
         gender.eachLayer(function (layer) {
+            console.log(layer.getLatLng()); // access to the layer coordinates
+        });
+        female.eachLayer(function (layer) {
+            console.log(layer.getLatLng()); // access to the layer coordinates
+        });
+        male.eachLayer(function (layer) {
             console.log(layer.getLatLng()); // access to the layer coordinates
         });
     });
