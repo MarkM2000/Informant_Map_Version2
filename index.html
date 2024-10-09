@@ -56,43 +56,8 @@
         fillOpacity: .8
     }
 
-    // Adding variables for checkboxes
-    var informant = L.geoJson(informant, {
-        pointToLayer: function (feature, latlng) {
-            return L.circleMarker(latlng, {
-                color: '#1f78b4',
-                weight: 1,
-                fillColor: '#B31942',
-                fillOpacity: .8,
-                radius: 10
-            });
-        },
-        onEachFeature: function (feature, layer) {
-            const props = feature.properties
-            const popup = `
-					<b>${props.Informant}</b>
-					<br>Project: ${props.Project}<br>
-				`
-            layer.bindTooltip(popup, {
-                className: 'tool-informant'
-            });
-
-            layer.on('mouseover', function () {
-                // code goes in here
-                layer.setStyle({
-                    fillColor: 'red'
-                });
-            });
-            layer.on('mouseout', function () {
-                // code goes in here
-                layer.setStyle({
-                    fillColor: '#B31942'
-                });
-            });
-        },
-    }).addTo(map);
-
-    // Add gender variables
+    // Adding variables for checkboxes    
+    /// Add gender variables
     var gender = L.geoJson(gender, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, {
@@ -226,7 +191,7 @@
         }
     }).addTo(map);
 
-    // Add ethnicity variables
+    /// Add ethnicity variables
     var ethnicity = L.geoJson(ethnicity, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, {
@@ -312,7 +277,6 @@
 
     // GeoJSon Layers
     var sourcesLabels = {
-        "informant": informant,
         "gender": gender,
         "female": female,
         "male": male,
@@ -323,7 +287,6 @@
     }
 
     var sourcesLayers = {
-        "<b style='color:#000000'>Informant (Project)</b>": informant,        
         "<b style='color:#000000'>Gender</b>": gender,
         "<b style='color:#ffa9d0'>Female</b>": female,
         "<b style='color:#2986cc'>Male</b>": male,
@@ -338,13 +301,6 @@
     }).addTo(map);
 
     // BEGIN WRITING YOUR SOLUTION CODE HERE
-    map.on('click', function (e) {
-        console.log(e.latlng) // access to the click coordinates
-        informant.eachLayer(function (layer) {
-            console.log(layer.getLatLng()); // access to the layer coordinates
-        });
-    });
-
     map.on('click', function (e) {
         console.log(e.latlng) // access to the click coordinates
         gender.eachLayer(function (layer) {
