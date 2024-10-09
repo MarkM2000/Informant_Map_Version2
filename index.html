@@ -92,6 +92,7 @@
         },
     }).addTo(map);
 
+    // Add gender variables
     var gender = L.geoJson(gender, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, {
@@ -225,6 +226,7 @@
         }
     }).addTo(map);
 
+    // Add ethnicity variables
     var ethnicity = L.geoJson(ethnicity, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, {
