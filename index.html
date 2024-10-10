@@ -223,9 +223,9 @@
     var white = L.geoJson(white, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, {
-                color: '#ffe39f',
+                color: '#000000',
                 weight: 1,
-                fillColor: '#000000',
+                fillColor: '#ffe39f',
                 fillOpacity: .8,
                 radius: 10
             });
@@ -243,13 +243,13 @@
             layer.on('mouseover', function () {
                 // code goes in here
                 layer.setStyle({
-                    fillColor: 'white'
+                    fillColor: '#ffe39f'
                 });
             });
             layer.on('mouseout', function () {
                 // code goes in here
                 layer.setStyle({
-                    fillColor: '#000000'
+                    fillColor: '#ffe39f'
                 });
             });
         }
