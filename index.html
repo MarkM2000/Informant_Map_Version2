@@ -291,6 +291,7 @@
         }
     }).addTo(map);
 
+    /// Add education variable
     var education = L.geoJson(education, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, {
