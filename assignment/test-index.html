@@ -253,24 +253,9 @@
         }
       })
       .then(function (data) {
-        // This is the JSON from our response
-        // Draw basic map from data
-        // var dataLayer = L.geoJson(data, {
-        //   style: function (feature) {
-        //     return {
-        //       color: "#333",
-        //       weight: 0.5,
-        //       fillOpacity: 1,
-        //       fillColor: "#1f78b4",
-        //     };
-        //   },
-        // }).addTo(map);
-        // Make call to update map
-        // console.log(dataLayer)
         drawMap(data);
         addLegend();
       });
-
 
     function drawMap(data) {
       // create Leaflet data layer and add to map
