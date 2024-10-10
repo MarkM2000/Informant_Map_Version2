@@ -34,6 +34,7 @@
 <script src="assets/gender/unknown.js"></script>
 <script src="assets/ethnicity.js"></script>
 <script src="assets/ethnicity/white.js"></script>
+<script src="assets/ethnicity/black.js"></script>
 <script src="assets/education.js"></script>
 <script src="assets/occupation.js"></script>
 <script>
@@ -255,6 +256,41 @@
         }
     }).addTo(map);
 
+    var black = L.geoJson(black, {
+        pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, {
+                color: '#white',
+                weight: 1,
+                fillColor: '#black',
+                fillOpacity: .8,
+                radius: 10
+            });
+        },
+        onEachFeature: function (feature, layer) {
+            const props = feature.properties
+            const popup = `
+					<b>${props.Informant}</b>
+					<br>Ethnicity: ${props.Ethnicity}<br>
+				`
+            layer.bindTooltip(popup, {
+                className: 'tool-informant'
+            });
+
+            layer.on('mouseover', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#black'
+                });
+            });
+            layer.on('mouseout', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#black'
+                });
+            });
+        }
+    }).addTo(map);
+
     var education = L.geoJson(education, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, {
@@ -326,6 +362,7 @@
         "unknown": unknown,
         "ethnicity": ethnicity,
         "white": white,
+        "black": black,
         "education": education,
         "occupation": occupation,
     }
@@ -337,6 +374,7 @@
         "<b style='color:#5a7485'>Unknown</b>": unknown,
         "<b style='color:#000000'>Ethnicity</b>": ethnicity,
         "<b style='color:#ffe39f'>White</b>": white,
+        "<b style='color:#000000'>Black or African American</b>": black,
         "<b style='color:#000000'>Education</b>": education,
         "<b style='color:#000000'>Occupation</b>": occupation,
     }
@@ -382,6 +420,9 @@
             console.log(layer.getLatLng()); // access to the layer coordinates
         });
         white.eachLayer(function (layer) {
+            console.log(layer.getLatLng()); // access to the layer coordinates
+        });
+        black.eachLayer(function (layer) {
             console.log(layer.getLatLng()); // access to the layer coordinates
         });
     });
