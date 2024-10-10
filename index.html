@@ -258,7 +258,15 @@
             });
         },
         onEachFeature: function (feature, layer) {
-            layer.bindTooltip(layer.feature.properties.Occupation);
+            const props = feature.properties
+            const popup = `
+					<b>${props.Informant}</b>
+					<br>Occupation: ${props.Occupation}<br>
+				`
+            layer.bindTooltip(popup, {
+                className: 'tool-informant'
+            });
+
             layer.on('mouseover', function () {
                 // code goes in here
                 layer.setStyle({
