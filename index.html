@@ -387,48 +387,4 @@
     L.control.layers(null, sourcesLayers, {
         collapsed: false
     }).addTo(map);
-
-    // BEGIN WRITING YOUR SOLUTION CODE HERE
-    map.on('click', function (e) {
-        console.log(e.latlng) // access to the click coordinates
-        gender.eachLayer(function (layer) {
-            console.log(layer.getLatLng()); // access to the layer coordinates
-        });
-        female.eachLayer(function (layer) {
-            console.log(layer.getLatLng()); // access to the layer coordinates
-        });
-        male.eachLayer(function (layer) {
-            console.log(layer.getLatLng()); // access to the layer coordinates
-        });
-        unknown.eachLayer(function () {
-            console.log(layer.getLatLng()); // access to the layer coordinates
-        })
-    });
-
-    map.on('click', function (e) {
-        console.log(e.latlng) // access to the click coordinates
-        education.eachLayer(function (layer) {
-            console.log(layer.getLatLng()); // access to the layer coordinates
-        });
-    });
-
-    map.on('click', function (e) {
-        console.log(e.latlng) // access to the click coordinates
-        occupation.eachLayer(function (layer) {
-            console.log(layer.getLatLng()); // access to the layer coordinates
-        });
-    });
-
-    map.on('click', function (e) {
-        console.log(e.latlng) // access to the click coordinates
-        ethnicity.eachLayer(function (layer) {
-            console.log(layer.getLatLng()); // access to the layer coordinates
-        });
-        white.eachLayer(function (layer) {
-            console.log(layer.getLatLng()); // access to the layer coordinates
-        });
-        black.eachLayer(function (layer) {
-            console.log(layer.getLatLng()); // access to the layer coordinates
-        });
-    });
 </script>
