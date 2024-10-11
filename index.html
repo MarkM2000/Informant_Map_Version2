@@ -366,27 +366,16 @@
 
     // GeoJSon Layers
     var baseMaps = {
-        "education": education,
-        "occupation": occupation,
-    };
-
-    var baseGender = {
-        "male": male,
-        "female": female,
-        "unknown": unknown,
-    }
-
-    var overlayMaps = {
-        "<b style='color:#000000'>Gender</b>": gender,
+        "Education": education,
+        "Occupation": occupation,
+        "Gender": gender,
         "<b style='color:#ffa9d0; margin-left: 15px;'>Female</b>": female,
         "<b style='color:#2986cc; margin-left: 15px;'>Male</b>": male,
         "<b style='color:#5a7485; margin-left: 15px;'>Unknown</b>": unknown,
-        "<b style='color:#000000'>Ethnicity</b>": ethnicity,
+        "Ethnicity": ethnicity,
         "<b style='color:#ffe39f; margin-left: 15px;'>White</b>": white,
         "<b style='color:#000000; margin-left: 15px;'>Black or African American</b>": black,
     };
 
-    L.control.layers(baseMaps, overlayMaps, {
-        collapsed: false
-    }).addTo(map);
+    var layerControl = L.control.layers(baseMaps).addTo(map);
 </script>
