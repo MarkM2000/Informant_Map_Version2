@@ -360,7 +360,7 @@
     }).addTo(map);
 
     // GeoJSon Layers
-    var baseMaps = {
+    var sourcesLabels = {
         "gender": gender,
         "female": female,
         "male": male,
@@ -372,7 +372,7 @@
         "occupation": occupation,
     }
 
-    var overLayMaps = {
+    var sourcesLayers = {
         "<b style='color:#000000'>Gender</b>": gender,
         "<b style='color:#ffa9d0; margin-left: 15px;'>Female</b>": female,
         "<b style='color:#2986cc; margin-left: 15px;'>Male</b>": male,
@@ -384,7 +384,7 @@
         "<b style='color:#000000'>Occupation</b>": occupation,
     }
     
-    L.control.layers(null, baseMaps, {
+    L.control.layers(null, sourcesLayers, {
         collapsed: false
     }).addTo(map);
 
