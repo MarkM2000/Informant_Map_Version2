@@ -15,8 +15,6 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Styles CSS -->
     <link href="css/styles.css" rel="stylesheet" />
-    <!-- Legend Variables JS -->
-    <link href="js/legend-variables.js" rel="stylesheet" />
 </head>
 
 <body>
@@ -48,6 +46,8 @@
 <script src="assets/ethnicity/black.js"></script>
 <script src="assets/education.js"></script>
 <script src="assets/occupation.js"></script>
+<!-- Legend Variables JS -->
+<script src="js/legend-variables.js"></script>
 <script>
     var map = L.map('map', {
         zoomSnap: .1,
@@ -67,4 +67,19 @@
         stroke: 1,
         fillOpacity: .8
     }
+
+    // GeoJSon Layers
+    var baseMaps = {
+        "Education": education,
+        "Occupation": occupation,
+        "Gender": gender,
+        "<b style='color:#ffa9d0; margin-left: 15px;'>Female</b>": female,
+        "<b style='color:#2986cc; margin-left: 15px;'>Male</b>": male,
+        "<b style='color:#5a7485; margin-left: 15px;'>Unknown</b>": unknown,
+        "Ethnicity": ethnicity,
+        "<b style='color:#ffe39f; margin-left: 15px;'>White</b>": white,
+        "<b style='color:#000000; margin-left: 15px;'>Black or African American</b>": black,
+    };
+
+    var layerControl = L.control.layers(baseMaps).addTo(map);
 </script>
