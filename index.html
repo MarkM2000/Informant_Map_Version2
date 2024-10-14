@@ -48,6 +48,7 @@
 <script src="assets/occupation.js"></script>
 <script src="assets/projects.js"></script>
 <script src="assets/projects/LAGS.js"></script>
+<script src="assets/projects/LAMSAS.js"></script>
 <script>
     var map = L.map('map', {
         zoomSnap: .1,
@@ -106,6 +107,41 @@
     }).addTo(map);
 
     var LAGS = L.geoJson(LAGS, {
+        pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, {
+                color: '#808080',
+                weight: 1,
+                fillColor: '#FFFFFF',
+                fillOpacity: .8,
+                radius: 10
+            });
+        },
+        onEachFeature: function (feature, layer) {
+            const props = feature.properties
+            const popup = `
+                <b>${props.Informant}</b>
+                <br>Gender: ${props.Project}<br>
+            `
+            layer.bindTooltip(popup, {
+                className: 'tool-informant'
+            });
+
+            layer.on('mouseover', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#FFFFFF'
+                });
+            });
+            layer.on('mouseout', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#FFFFFF'
+                });
+            });
+        }
+    }).addTo(map);
+
+    var LAMSAS = L.geoJson(LAMSAS, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, {
                 color: '#808080',
@@ -454,6 +490,7 @@
     var baseMaps = {
         "Project": projects,
         "<b style='color:#000000; margin-left: 15px;'>LAGS</b>": LAGS,
+        "<b style='color:#000000; margin-left: 15px;'>LAMSAS</b>": LAMSAS,
         "Gender": gender,
         "<b style='color:#ffa9d0; margin-left: 15px;'>Female</b>": female,
         "<b style='color:#2986cc; margin-left: 15px;'>Male</b>": male,
