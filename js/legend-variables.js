@@ -302,18 +302,3 @@ var occupation = L.geoJson(occupation, {
         });
     }
 }).addTo(map);
-
-// GeoJSon Layers
-var baseMaps = {
-    "Education": education,
-    "Occupation": occupation,
-    "Gender": gender,
-    "<b style='color:#ffa9d0; margin-left: 15px;'>Female</b>": female,
-    "<b style='color:#2986cc; margin-left: 15px;'>Male</b>": male,
-    "<b style='color:#5a7485; margin-left: 15px;'>Unknown</b>": unknown,
-    "Ethnicity": ethnicity,
-    "<b style='color:#ffe39f; margin-left: 15px;'>White</b>": white,
-    "<b style='color:#000000; margin-left: 15px;'>Black or African American</b>": black,
-};
-
-var layerControl = L.control.layers(baseMaps).addTo(map);
