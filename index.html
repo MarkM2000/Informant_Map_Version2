@@ -34,22 +34,25 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-<!-- Add JS files-->
-<script src="assets/gender.js"></script>
-<script src="assets/gender/female.js"></script>
-<script src="assets/gender/male.js"></script>
-<script src="assets/gender/unknown.js"></script>
-<script src="assets/ethnicity.js"></script>
-<script src="assets/ethnicity/white.js"></script>
-<script src="assets/ethnicity/black.js"></script>
-<script src="assets/education.js"></script>
-<script src="assets/occupation.js"></script>
+<!-- Add Project JS files-->
 <script src="assets/projects.js"></script>
 <script src="assets/projects/LAGS.js"></script>
 <script src="assets/projects/LAMSAS.js"></script>
 <script src="assets/projects/LANCS.js"></script>
 <script src="assets/projects/LANE.js"></script>
+<!-- Add Gender JS files -->
+<script src="assets/gender.js"></script>
+<script src="assets/gender/female.js"></script>
+<script src="assets/gender/male.js"></script>
+<script src="assets/gender/unknown.js"></script>
+<!-- Add Ethncity Files -->
+<script src="assets/ethnicity.js"></script>
+<script src="assets/ethnicity/white.js"></script>
+<script src="assets/ethnicity/black.js"></script>
+<!-- Add Other JS Files -->
 <script src="assets/age.js"></script>
+<script src="assets/education.js"></script>
+<script src="assets/occupation.js"></script>
 <script>
     var map = L.map('map', {
         zoomSnap: .1,
@@ -486,6 +489,42 @@
         }
     }).addTo(map);
 
+        /// Add variable for age
+        var age = L.geoJson(age, {
+        pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, {
+                color: '#1f78b4',
+                weight: 1,
+                fillColor: '#83b9ab',
+                fillOpacity: .8,
+                radius: 10
+            });
+        },
+        onEachFeature: function (feature, layer) {
+            const props = feature.properties
+            const popup = `
+					<b>${props.Informant}</b>
+					<br>Age: ${props.Age}<br>
+				`
+            layer.bindTooltip(popup, {
+                className: 'tool-informant'
+            });
+
+            layer.on('mouseover', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: 'black'
+                });
+            });
+            layer.on('mouseout', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#83b9ab'
+                });
+            });
+        }
+    }).addTo(map);
+
     /// Add education variable
     var education = L.geoJson(education, {
         pointToLayer: function (feature, latlng) {
@@ -522,41 +561,6 @@
         }
     }).addTo(map);
 
-    /// Add variable for age
-    var age = L.geoJson(age, {
-        pointToLayer: function (feature, latlng) {
-            return L.circleMarker(latlng, {
-                color: '#1f78b4',
-                weight: 1,
-                fillColor: '#83b9ab',
-                fillOpacity: .8,
-                radius: 10
-            });
-        },
-        onEachFeature: function (feature, layer) {
-            const props = feature.properties
-            const popup = `
-					<b>${props.Informant}</b>
-					<br>Age: ${props.Age}<br>
-				`
-            layer.bindTooltip(popup, {
-                className: 'tool-informant'
-            });
-
-            layer.on('mouseover', function () {
-                // code goes in here
-                layer.setStyle({
-                    fillColor: 'black'
-                });
-            });
-            layer.on('mouseout', function () {
-                // code goes in here
-                layer.setStyle({
-                    fillColor: '#83b9ab'
-                });
-            });
-        }
-    }).addTo(map);
     /// Add variable for occupation
     var occupation = L.geoJson(occupation, {
         pointToLayer: function (feature, latlng) {
@@ -608,8 +612,8 @@
         "<b style='color:#ffe39f; margin-left: 15px;'>White</b>": white,
         "<b style='color:#000000; margin-left: 15px;'>Black or African American</b>": black,
         "Age": age,
-        "Occupation": occupation,
         "Education": education,
+        "Occupation": occupation,
     };
 
     var layerControl = L.control.layers(baseMaps).addTo(map);
