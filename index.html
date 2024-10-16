@@ -49,6 +49,7 @@
 <script src="assets/projects/LAMSAS.js"></script>
 <script src="assets/projects/LANCS.js"></script>
 <script src="assets/projects/LANE.js"></script>
+<script src="assets/age.js"></script>
 <script>
     var map = L.map('map', {
         zoomSnap: .1,
@@ -521,6 +522,42 @@
         }
     }).addTo(map);
 
+    /// Add variable for age
+    var age = L.geoJson(age, {
+        pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, {
+                color: '#1f78b4',
+                weight: 1,
+                fillColor: '#83b9ab',
+                fillOpacity: .8,
+                radius: 10
+            });
+        },
+        onEachFeature: function (feature, layer) {
+            const props = feature.properties
+            const popup = `
+					<b>${props.Informant}</b>
+					<br>Age: ${props.Age}<br>
+				`
+            layer.bindTooltip(popup, {
+                className: 'tool-informant'
+            });
+
+            layer.on('mouseover', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: 'black'
+                });
+            });
+            layer.on('mouseout', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#83b9ab'
+                });
+            });
+        }
+    }).addTo(map);
+    /// Add variable for occupation
     var occupation = L.geoJson(occupation, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, {
@@ -570,6 +607,7 @@
         "Ethnicity": ethnicity,
         "<b style='color:#ffe39f; margin-left: 15px;'>White</b>": white,
         "<b style='color:#000000; margin-left: 15px;'>Black or African American</b>": black,
+        "Age": age,
         "Occupation": occupation,
         "Education": education,
     };
