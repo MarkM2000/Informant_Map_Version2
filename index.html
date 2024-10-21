@@ -401,7 +401,7 @@
             return L.circleMarker(latlng, {
                 color: '#1f78b4',
                 weight: 1,
-                fillColor: '#FFFFFF',
+                fillColor: '#00FF00',
                 fillOpacity: .8,
                 radius: 10
             });
@@ -412,13 +412,13 @@
             layer.on('mouseover', function () {
                 // code goes in here
                 layer.setStyle({
-                    fillColor: 'gray'
+                    fillColor: '#00FF00'
                 });
             });
             layer.on('mouseout', function () {
                 // code goes in here
                 layer.setStyle({
-                    fillColor: '#cccccc'
+                    fillColor: '#00FF00'
                 });
             });
         }
