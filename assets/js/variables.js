@@ -1,6 +1,4 @@
-    // Adding variables for checkboxes   
-    /// Add project variable
-    var projects = L.geoJson(projects, {
+var projects = L.geoJson(projects, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, {
                 color: '#808080',
