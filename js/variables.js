@@ -662,3 +662,143 @@ var fisher = L.geoJson(fisher, {
         });
     }
 })
+
+var household = L.geoJson(household, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, {
+            color: '#1f78b4',
+            weight: 1,
+            fillColor: '#FA8072',
+            fillOpacity: .8,
+            radius: 10
+        });
+    },
+    onEachFeature: function (feature, layer) {
+        const props = feature.properties
+        const popup = `
+					<b>${props.Informant}</b>
+					<br>Occupation: ${props.Occupation}<br>
+				`
+        layer.bindTooltip(popup, {
+            className: 'tool-informant'
+        });
+
+        layer.on('mouseover', function () {
+            // code goes in here
+            layer.setStyle({
+                fillColor: '#FA8072'
+            });
+        });
+        layer.on('mouseout', function () {
+            // code goes in here
+            layer.setStyle({
+                fillColor: '#FA8072'
+            });
+        });
+    }
+})
+
+var keeping_house = L.geoJson(keeping_house, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, {
+            color: '#1f78b4',
+            weight: 1,
+            fillColor: '#FA8072',
+            fillOpacity: .8,
+            radius: 10
+        });
+    },
+    onEachFeature: function (feature, layer) {
+        const props = feature.properties
+        const popup = `
+					<b>${props.Informant}</b>
+					<br>Occupation: ${props.Occupation}<br>
+				`
+        layer.bindTooltip(popup, {
+            className: 'tool-informant'
+        });
+
+        layer.on('mouseover', function () {
+            // code goes in here
+            layer.setStyle({
+                fillColor: '#FA8072'
+            });
+        });
+        layer.on('mouseout', function () {
+            // code goes in here
+            layer.setStyle({
+                fillColor: '#FA8072'
+            });
+        });
+    }
+})
+
+var laborer = L.geoJson(laborer, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, {
+            color: '#1f78b4',
+            weight: 1,
+            fillColor: '#fc6600',
+            fillOpacity: .8,
+            radius: 10
+        });
+    },
+    onEachFeature: function (feature, layer) {
+        const props = feature.properties
+        const popup = `
+					<b>${props.Informant}</b>
+					<br>Occupation: ${props.Occupation}<br>
+				`
+        layer.bindTooltip(popup, {
+            className: 'tool-informant'
+        });
+
+        layer.on('mouseover', function () {
+            // code goes in here
+            layer.setStyle({
+                fillColor: '#fc6600'
+            });
+        });
+        layer.on('mouseout', function () {
+            // code goes in here
+            layer.setStyle({
+                fillColor: '#fc6600'
+            });
+        });
+    }
+})
+
+var mop = L.geoJson(mop, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, {
+            color: '#1f78b4',
+            weight: 1,
+            fillColor: '#FA8072',
+            fillOpacity: .8,
+            radius: 10
+        });
+    },
+    onEachFeature: function (feature, layer) {
+        const props = feature.properties
+        const popup = `
+					<b>${props.Informant}</b>
+					<br>Occupation: ${props.Occupation}<br>
+				`
+        layer.bindTooltip(popup, {
+            className: 'tool-informant'
+        });
+
+        layer.on('mouseover', function () {
+            // code goes in here
+            layer.setStyle({
+                fillColor: '#FA8072'
+            });
+        });
+        layer.on('mouseout', function () {
+            // code goes in here
+            layer.setStyle({
+                fillColor: '#FA8072'
+            });
+        });
+    }
+})
