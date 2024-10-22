@@ -522,3 +522,73 @@
             });
         }
     })
+
+    var clerical = L.geoJson(clerical, {
+        pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, {
+                color: '#1f78b4',
+                weight: 1,
+                fillColor: '#001122',
+                fillOpacity: .8,
+                radius: 10
+            });
+        },
+        onEachFeature: function (feature, layer) {
+            const props = feature.properties
+            const popup = `
+					<b>${props.Informant}</b>
+					<br>Occupation: ${props.Occupation}<br>
+				`
+            layer.bindTooltip(popup, {
+                className: 'tool-informant'
+            });
+
+            layer.on('mouseover', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#001122'
+                });
+            });
+            layer.on('mouseout', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#001122'
+                });
+            });
+        }
+    })
+
+    var craftsman = L.geoJson(craftsman, {
+        pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, {
+                color: '#1f78b4',
+                weight: 1,
+                fillColor: '#EE293D',
+                fillOpacity: .8,
+                radius: 10
+            });
+        },
+        onEachFeature: function (feature, layer) {
+            const props = feature.properties
+            const popup = `
+					<b>${props.Informant}</b>
+					<br>Occupation: ${props.Occupation}<br>
+				`
+            layer.bindTooltip(popup, {
+                className: 'tool-informant'
+            });
+
+            layer.on('mouseover', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#EE293D'
+                });
+            });
+            layer.on('mouseout', function () {
+                // code goes in here
+                layer.setStyle({
+                    fillColor: '#EE293D'
+                });
+            });
+        }
+    })
