@@ -1,40 +1,5 @@
 // Adding variables for checkboxes   
-/// Add project variable
-var projects = L.geoJson(projects, {
-    pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, {
-            color: '#808080',
-            weight: 1,
-            fillColor: '#FFFFFF',
-            fillOpacity: .8,
-            radius: 10
-        });
-    },
-    onEachFeature: function (feature, layer) {
-        const props = feature.properties
-        const popup = `
-					<b>${props.Informant}</b>
-					<br>Project: ${props.Project}<br>
-				`
-        layer.bindTooltip(popup, {
-            className: 'tool-informant'
-        });
-
-        layer.on('mouseover', function () {
-            // code goes in here
-            layer.setStyle({
-                fillColor: '#FFFFFF'
-            });
-        });
-        layer.on('mouseout', function () {
-            // code goes in here
-            layer.setStyle({
-                fillColor: '#FFFFFF'
-            });
-        });
-    }
-})
-
+/// Add project variables
 var LAGS = L.geoJson(LAGS, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, {
@@ -176,41 +141,6 @@ var LANE = L.geoJson(LANE, {
 })
 
 /// Add gender variables
-var gender = L.geoJson(gender, {
-    pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, {
-            color: '#808080',
-            weight: 1,
-            fillColor: '#6e2032',
-            fillOpacity: .8,
-            radius: 10
-        });
-    },
-    onEachFeature: function (feature, layer) {
-        const props = feature.properties
-        const popup = `
-					<b>${props.Informant}</b>
-					<br>Gender: ${props.Sex}<br>
-				`
-        layer.bindTooltip(popup, {
-            className: 'tool-informant'
-        });
-
-        layer.on('mouseover', function () {
-            // code goes in here
-            layer.setStyle({
-                fillColor: '#6e2032'
-            });
-        });
-        layer.on('mouseout', function () {
-            // code goes in here
-            layer.setStyle({
-                fillColor: '#6e2032'
-            });
-        });
-    }
-})
-
 var female = L.geoJson(female, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, {
@@ -487,42 +417,7 @@ var education = L.geoJson(education, {
     }
 })
 
-/// Add variable for occupation
-var occupation = L.geoJson(occupation, {
-    pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, {
-            color: '#1f78b4',
-            weight: 1,
-            fillColor: '#000000',
-            fillOpacity: .8,
-            radius: 10
-        });
-    },
-    onEachFeature: function (feature, layer) {
-        const props = feature.properties
-        const popup = `
-					<b>${props.Informant}</b>
-					<br>Occupation: ${props.Occupation}<br>
-				`
-        layer.bindTooltip(popup, {
-            className: 'tool-informant'
-        });
-
-        layer.on('mouseover', function () {
-            // code goes in here
-            layer.setStyle({
-                fillColor: 'black'
-            });
-        });
-        layer.on('mouseout', function () {
-            // code goes in here
-            layer.setStyle({
-                fillColor: '#000000'
-            });
-        });
-    }
-})
-
+/// Add variables for occupation
 var clerical = L.geoJson(clerical, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, {
