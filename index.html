@@ -15,6 +15,8 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Styles CSS -->
     <link href="css/styles.css" rel="stylesheet" />
+    <!-- L Control Layers Tree Layer CSS -->
+    <link href="/css/L.Control.Layers.Tree.css" rel="stylesheet" >
 </head>
 
 <body>
@@ -72,8 +74,10 @@
 <!-- Add Other JS Files -->
 <script src="assets/age.js"></script>
 <script src="assets/education.js"></script>
-<!-- Add Variables JS Files -->
+<!-- Add Variables JS File -->
 <script src="/js/variables.js"></script>
+<!-- Add L.Control Layers Tree JS File -->
+<script src="/js/L.Control.Layers.Tree.js"></script>
 <script>
     var map = L.map('map', {
         zoomSnap: .1,
@@ -95,35 +99,65 @@
     }
 
     // GeoJSon Layers
-    var baseMaps = {
-        "Project": projects,
-        "<b style='color:#000000; margin-left: 15px;'>LAGS</b>": LAGS,
-        "<b style='color:#000000; margin-left: 15px;'>LAMSAS</b>": LAMSAS,
-        "<b style='color:#000000; margin-left: 15px;'>LANCS</b>": LANCS,
-        "<b style='color:#000000; margin-left: 15px;'>LANE</b>": LANE,
-        "<b style='color:#6e2032; 15px;'>Gender</b>": gender,
-        "<b style='color:#ffa9d0; margin-left: 15px;'>Female</b>": female,
-        "<b style='color:#2986cc; margin-left: 15px;'>Male</b>": male,
-        "<b style='color:#5a7485; margin-left: 15px;'>Unknown</b>": unknown,
-        "<b style='color:#00FF00; 15px;'>Ethnicity</b>": ethnicity,
-        "<b style='color:#ffe39f; margin-left: 15px;'>White</b>": white,
-        "<b style='color:#000000; margin-left: 15px;'>Black or African American</b>": black,
-        "Occupation": occupation,
-        "<b style='color:#000000; margin-left: 15px;'>Clerical</b>": clerical,
-        "<b style='color:#000000; margin-left: 15px;'>Craftsman or foreman</b>": craftsman,
-        "<b style='color:#000000; margin-left: 15px;'>Fisher</b>": fisher,  
-        "<b style='color:#000000; margin-left: 15px;'>Private household worker or gardener</b>": household,
-        "<b style='color:#000000; margin-left: 15px;'>Keeping house</b>": keeping_house,
-        "<b style='color:#000000; margin-left: 15px;'>Laborer</b>": laborer,
-        "<b style='color:#000000; margin-left: 15px;'>Manager, official or proprietor</b>": mop,
-        "<b style='color:#000000; margin-left: 15px;'>Public servant</b>": public_servant,     
-        "<b style='color:#000000; margin-left: 15px;'>Seeking work</b>": seeking_work,
-        "<b style='color:#000000; margin-left: 15px;'>Service worker</b>": service_worker,
-        "<b style='color:#000000; margin-left: 15px;'>Student</b>": student,
-        "<b style='color:#000000; margin-left: 15px;'>Teacher</b>": teacher,   
-        "Age": age,
-        "Education": education,
+    var baseTree = {
+        label: 'Base Layers',
+        children: [
+            {
+                label: 'Project',
+                children: [
+                    { label: 'LAGS', layer: LAGS },
+                    { label: 'LAMSAS', layer: LAMSAS },
+                    { label: 'LANCS', layer: LANCS },
+                    { label: 'LANE', layer: LANE },
+                    /* ... */
+                ]
+            },
+            {
+                label: 'Gender',
+                children: [
+                    { label: 'Male', layer: male },
+                    { label: 'Female', layer: female },
+                    { label: 'Unknown', layer: unknown },
+                    /* ... */
+                ]
+            },
+            {
+                label: 'Ethnicity',
+                children: [
+                    { label: 'Black or African American', layer: black },
+                    { label: 'White', layer: white },
+                    /* ... */
+                ]
+            },
+            {
+                label: 'Occupation',
+                children: [
+                    { label: 'Clerical and sales', layer: clerical },
+                    { label: 'Craftsman or foreman', layer: craftsman },
+                    { label: 'Farmer', layer: farmer },
+                    { label: 'Fisher', layer: fisher },
+                    { label: 'Private household worker or gardener', layer: household },
+                    { label: 'Keeping house', layer: keeping_house },
+                    { label: 'Laborer', layer: laborer },
+                    { label: 'Manager, official or proprietor', layer: mop },
+                    { label: 'Public servant', layer: keeping_house },
+                    { label: 'Seeking work', layer: seeking_work },
+                    { label: 'Service worker', layer: service_worker },
+                    { label: 'Student', layer: student },
+                    { label: 'Teacher', layer: teacher },
+                    /* ... */
+                ]
+            },
+            {
+                label: 'Other categories',
+                children: [
+                    { label: 'Education', layer: education },
+                    { label: 'Age', layer: age },
+                    /* ... */
+                ]
+            },
+        ]
     };
 
-    var layerControl = L.control.layers(baseMaps).addTo(map);
+    L.control.layers.tree(baseTree).addTo(map)
 </script>
