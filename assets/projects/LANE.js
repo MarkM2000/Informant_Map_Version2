@@ -5,7 +5,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT384",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -19,7 +20,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT385",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -33,7 +35,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT386",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -47,7 +50,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT387",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -61,7 +65,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT400",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -75,7 +80,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT401",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -89,7 +95,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA102",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -103,7 +110,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA123",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male/Female"
       },
       "geometry": {
         "type": "Point",
@@ -117,7 +125,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA124",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -131,7 +140,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA125",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -145,7 +155,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA127",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -159,7 +170,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA135",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +185,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA136",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -187,7 +200,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA137",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -201,7 +215,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA140",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -215,7 +230,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA141",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -229,7 +245,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA145",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -243,7 +260,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA146",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -257,7 +275,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA147",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -271,7 +290,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA148",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -285,7 +305,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA15",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -299,7 +320,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA16",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -313,7 +335,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA200",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -327,7 +350,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA201",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -341,7 +365,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA202",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -355,7 +380,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA203",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -369,7 +395,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA204",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -383,7 +410,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA207",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -397,7 +425,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA208",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -411,7 +440,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA291",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -425,7 +455,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA318",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -439,7 +470,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA319",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +485,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA321",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -467,7 +500,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA322",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -481,7 +515,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA372",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -495,7 +530,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA38",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -509,7 +545,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA423",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -523,7 +560,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA426",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -537,7 +575,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA427",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -551,7 +590,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA428",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -565,7 +605,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA429",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -579,7 +620,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA54",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -593,7 +635,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA55",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -607,7 +650,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA58",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -621,7 +665,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA59",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -635,7 +680,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA6",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -649,7 +695,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA61",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -663,7 +710,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA70",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -677,7 +725,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA89",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -691,7 +740,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA90",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -705,7 +755,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA91",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -719,7 +770,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA93",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -733,7 +785,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT212",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -747,7 +800,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT213",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -761,7 +815,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT214",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -775,7 +830,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT231",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -789,7 +845,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT232",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -803,7 +860,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT236",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -817,7 +875,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT237",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -831,7 +890,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT239",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -845,7 +905,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT240",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -859,7 +920,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT241",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -873,7 +935,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT242",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -887,7 +950,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT243",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -901,7 +965,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT244",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -915,7 +980,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT245",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -929,7 +995,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT256",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -943,7 +1010,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT257",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -957,7 +1025,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT263",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -971,7 +1040,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT264",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -985,7 +1055,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT265",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -999,7 +1070,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT275",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1013,7 +1085,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT276",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1027,7 +1100,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT277",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1041,7 +1115,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT278",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1055,7 +1130,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT279",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1069,7 +1145,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT280",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1083,7 +1160,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT281",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1097,7 +1175,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT314",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1111,7 +1190,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT315",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1125,7 +1205,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT316",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1139,7 +1220,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT317",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1153,7 +1235,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT323",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1167,7 +1250,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT343",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1181,7 +1265,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT345",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1195,7 +1280,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT346",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1209,7 +1295,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT347",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1223,7 +1310,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT348",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1237,7 +1325,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH128",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1251,7 +1340,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH129",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1265,7 +1355,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH144",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1279,7 +1370,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH156",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1293,7 +1385,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH157",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1307,7 +1400,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH158",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1321,7 +1415,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH159",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1335,7 +1430,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH176",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1349,7 +1445,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH177",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1363,7 +1460,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH178",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1377,7 +1475,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH179",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1391,7 +1490,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH180",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1405,7 +1505,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH181",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1419,7 +1520,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT169",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1433,7 +1535,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT103",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1447,7 +1550,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT109",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1461,7 +1565,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT112",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1475,7 +1580,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT113",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1489,7 +1595,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT183",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1503,7 +1610,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT184",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1517,7 +1625,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT187",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1531,7 +1640,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT188",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1545,7 +1655,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT189",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1559,7 +1670,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT190",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1685,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT191",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1587,7 +1700,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT197",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1601,7 +1715,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT198",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1615,7 +1730,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT199",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1629,7 +1745,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT205",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1643,7 +1760,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT210",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1657,7 +1775,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT215",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1671,7 +1790,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT216",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1685,7 +1805,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT217",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1699,7 +1820,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT218",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1713,7 +1835,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT254",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1727,7 +1850,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT260",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1741,7 +1865,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT261",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1755,7 +1880,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT262",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1769,7 +1895,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT266",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1783,7 +1910,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT282",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1797,7 +1925,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT283",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1811,7 +1940,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT286",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1825,7 +1955,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT287",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1839,7 +1970,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT30",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1853,7 +1985,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT60",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1867,7 +2000,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT92",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1881,7 +2015,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA185",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1895,7 +2030,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA186",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1909,7 +2045,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA211",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1923,7 +2060,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA235",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1937,7 +2075,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA284",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1951,7 +2090,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA285",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1965,7 +2105,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA313",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -1979,7 +2120,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA326",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -1993,7 +2135,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA397",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2007,7 +2150,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA398",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2021,7 +2165,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA399",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2035,7 +2180,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA409",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2049,7 +2195,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA420",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2063,7 +2210,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA421",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2077,7 +2225,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA424",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2091,7 +2240,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA425",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2105,7 +2255,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT192",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2119,7 +2270,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT193",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2133,7 +2285,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT195",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2147,7 +2300,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT206",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2161,7 +2315,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT209",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2175,7 +2330,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT233",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2189,7 +2345,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT234",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2203,7 +2360,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT373",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2217,7 +2375,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT405",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2231,7 +2390,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT406",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2245,7 +2405,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT407",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2259,7 +2420,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT408",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2273,7 +2435,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT417",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2287,7 +2450,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT418",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2301,7 +2465,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT419",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2315,7 +2480,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA255",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2329,7 +2495,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA258",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2343,7 +2510,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA273",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2357,7 +2525,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA274",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2371,7 +2540,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA289",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2385,7 +2555,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA320",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2399,7 +2570,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA325",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2413,7 +2585,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA344",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2427,7 +2600,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA349",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2441,7 +2615,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA350",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2455,7 +2630,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI11",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2469,7 +2645,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI110",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2483,7 +2660,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI111",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2497,7 +2675,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI114",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2511,7 +2690,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI115",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2525,7 +2705,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI116",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2539,7 +2720,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI121",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2553,7 +2735,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI122",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2567,7 +2750,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI134",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2581,7 +2765,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI138",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2595,7 +2780,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI143",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2609,7 +2795,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI161",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2623,7 +2810,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI17",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2637,7 +2825,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI18",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2651,7 +2840,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI19",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2665,7 +2855,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI194",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2679,7 +2870,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI20",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2693,7 +2885,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI23",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2707,7 +2900,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI259",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2721,7 +2915,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI288",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2735,7 +2930,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI290",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2749,7 +2945,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI342",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2763,7 +2960,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI44",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2777,7 +2975,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "RI71",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2791,7 +2990,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT43",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2805,7 +3005,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH100",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2819,7 +3020,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH101",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2833,7 +3035,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH117",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2847,7 +3050,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH118",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2861,7 +3065,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH374",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2875,7 +3080,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH375",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2889,7 +3095,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH376",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2903,7 +3110,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT31",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2917,7 +3125,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT42",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2931,7 +3140,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT98",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2945,7 +3155,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT99",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2959,7 +3170,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA108",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -2973,7 +3185,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA119",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -2987,7 +3200,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA120",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3001,7 +3215,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA13",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3015,7 +3230,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA14",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3029,7 +3245,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA149",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3043,7 +3260,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA150",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3057,7 +3275,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA151",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3071,7 +3290,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA153",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3085,7 +3305,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA154",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3099,7 +3320,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA2",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3113,7 +3335,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA3",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3127,7 +3350,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA37",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3141,7 +3365,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA4",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3155,7 +3380,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA79",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3169,7 +3395,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA80",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3183,7 +3410,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA81",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3197,7 +3425,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA82",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3211,7 +3440,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA152",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3225,7 +3455,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA155",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3239,7 +3470,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT126",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3253,7 +3485,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT133",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3267,7 +3500,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT139",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3281,7 +3515,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT142",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3295,7 +3530,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT160",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3309,7 +3545,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT196",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3323,7 +3560,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT32",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3337,7 +3575,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT33",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3351,7 +3590,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT34",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3365,7 +3605,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT39",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3379,7 +3620,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT40",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3393,7 +3635,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT41",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3407,7 +3650,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT422",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3421,7 +3665,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT62",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3435,7 +3680,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "CT69",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3449,7 +3695,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA10",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3463,7 +3710,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA24",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3477,7 +3725,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA25",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3491,7 +3740,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA26",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3505,7 +3755,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA27",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3519,7 +3770,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA28",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3533,7 +3785,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA29",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3547,7 +3800,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA388",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3561,7 +3815,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA389",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3575,7 +3830,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA390",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3589,7 +3845,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA391",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3603,7 +3860,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA392",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3617,7 +3875,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA393",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3631,7 +3890,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA394",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3645,7 +3905,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA395",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3659,7 +3920,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA396",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3673,7 +3935,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA402",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3687,7 +3950,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA403",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3701,7 +3965,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA404",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3715,7 +3980,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA410",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3729,7 +3995,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA411",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3743,7 +4010,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA416",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3757,7 +4025,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA47",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3771,7 +4040,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA52",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3785,7 +4055,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA7",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3799,7 +4070,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA8",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3813,7 +4085,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA9",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3827,7 +4100,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME131",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3841,7 +4115,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME221",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3855,7 +4130,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME222",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3869,7 +4145,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME225",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3883,7 +4160,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME226",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3897,7 +4175,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME227",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3911,7 +4190,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME228",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3925,7 +4205,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME229",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3939,7 +4220,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME230",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3953,7 +4235,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME246",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3967,7 +4250,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME247",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -3981,7 +4265,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME248",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -3995,7 +4280,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME249",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4009,7 +4295,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME250",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4023,7 +4310,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME251",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4037,7 +4325,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME252",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4051,7 +4340,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME253",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4065,7 +4355,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME267",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4079,7 +4370,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME268",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4093,7 +4385,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME269",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4107,7 +4400,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME270",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4121,7 +4415,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME271",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4135,7 +4430,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME272",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4149,7 +4445,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME292",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4163,7 +4460,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME293",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4177,7 +4475,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME294",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4191,7 +4490,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME295",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4205,7 +4505,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME296",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4219,7 +4520,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME297",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4233,7 +4535,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME298",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4247,7 +4550,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME299",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4261,7 +4565,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME300",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4275,7 +4580,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME301",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4289,7 +4595,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME302",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4303,7 +4610,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME303",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4317,7 +4625,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME304",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4331,7 +4640,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME305",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4345,7 +4655,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME306",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4359,7 +4670,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME308",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4373,7 +4685,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME309",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4387,7 +4700,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME310",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4401,7 +4715,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME311",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4415,7 +4730,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME312",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4429,7 +4745,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME327",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4443,7 +4760,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME328",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4457,7 +4775,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME329",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4471,7 +4790,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME330",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4485,7 +4805,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME331",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4499,7 +4820,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME332",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4513,7 +4835,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME333",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4527,7 +4850,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME358",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4541,7 +4865,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME359",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4555,7 +4880,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME360",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4569,7 +4895,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME361",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4583,7 +4910,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME362",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4597,7 +4925,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME363",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4611,7 +4940,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME364",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4625,7 +4955,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME365",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4639,7 +4970,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME366",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4653,7 +4985,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME367",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4667,7 +5000,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME368",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4681,7 +5015,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME377",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4695,7 +5030,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME379",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4709,7 +5045,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME380",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4723,7 +5060,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME49",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4737,7 +5075,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME53",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4751,7 +5090,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME64",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4765,7 +5105,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME66",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4779,7 +5120,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME76",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4793,7 +5135,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME77",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4807,7 +5150,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME78",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4821,7 +5165,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME83",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4835,7 +5180,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME84",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4849,7 +5195,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME85",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4863,7 +5210,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME86",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Unknown"
       },
       "geometry": {
         "type": "Point",
@@ -4877,7 +5225,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME87",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4891,7 +5240,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "ME88",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4905,7 +5255,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NB307",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4919,7 +5270,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NB369",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4933,7 +5285,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NB370",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4947,7 +5300,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NB371",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4961,7 +5315,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NB378",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -4975,7 +5330,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NB381",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -4989,7 +5345,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NB383",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -5003,7 +5360,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH130",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5017,7 +5375,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH132",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5031,7 +5390,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH163",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -5045,7 +5405,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH164",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5059,7 +5420,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH165",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5073,7 +5435,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH166",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5087,7 +5450,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH167",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5101,7 +5465,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH170",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5115,7 +5480,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH171",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5129,7 +5495,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH172",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -5143,7 +5510,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH173",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5157,7 +5525,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH174",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -5171,7 +5540,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH175",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5185,7 +5555,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH219",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5199,7 +5570,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH220",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5213,7 +5585,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH223",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5227,7 +5600,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH224",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5241,7 +5615,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH334",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -5255,7 +5630,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH335",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5269,7 +5645,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH336",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5283,7 +5660,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH352",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5297,7 +5675,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH353",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5311,7 +5690,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH354",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5325,7 +5705,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH355",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -5339,7 +5720,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH356",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5353,7 +5735,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH357",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5367,7 +5750,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH48",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5381,7 +5765,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH50",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5395,7 +5780,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH51",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5409,7 +5795,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH63",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5423,7 +5810,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH67",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5437,7 +5825,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH68",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5451,7 +5840,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NH75",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5465,7 +5855,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NY412",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5479,7 +5870,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NY413",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5493,7 +5885,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NY414",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -5507,7 +5900,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NY415",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5521,7 +5915,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT162",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5535,7 +5930,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT168",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5549,7 +5945,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT182",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -5563,7 +5960,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT337",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -5577,7 +5975,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT338",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5591,7 +5990,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT339",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5605,7 +6005,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT340",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5619,7 +6020,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT341",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -5633,7 +6035,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT351",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5647,7 +6050,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA1",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -5661,7 +6065,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA104",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5675,7 +6080,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA106",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5689,7 +6095,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA107",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5703,7 +6110,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA12",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5717,7 +6125,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA21",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5731,7 +6140,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA22",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5745,7 +6155,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA35",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5759,7 +6170,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA36",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5773,7 +6185,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA45",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5787,7 +6200,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA46",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -5801,7 +6215,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA5",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5815,7 +6230,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA56",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5829,7 +6245,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA57",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5843,7 +6260,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA72",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5857,7 +6275,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA73",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5871,7 +6290,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA74",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5885,7 +6305,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA94",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5899,7 +6320,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA95",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5913,7 +6335,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA96",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5927,7 +6350,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA97",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5941,7 +6365,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "MA105",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5955,7 +6380,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "NB382",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Female"
       },
       "geometry": {
         "type": "Point",
@@ -5969,7 +6395,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT238",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",
@@ -5983,7 +6410,8 @@ var LANE = {
       "type": "Feature",
       "properties": {
         "Informant": "VT324",
-        "Project": "LANE"
+        "Project": "LANE",
+        "Sex": "Male"
       },
       "geometry": {
         "type": "Point",

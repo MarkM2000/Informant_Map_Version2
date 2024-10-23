@@ -118,7 +118,7 @@ var LANE = L.geoJson(LANE, {
     onEachFeature: function (feature, layer) {
         const props = feature.properties
         const popup = `
-                <b>${props.Informant}</b>
+                <b>${props.Informant}</b> (<b>${props.Sex}</b>)
                 <br>Project: ${props.Project}<br>
             `
         layer.bindTooltip(popup, {
