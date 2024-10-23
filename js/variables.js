@@ -395,7 +395,7 @@ var education = L.geoJson(education, {
     onEachFeature: function (feature, layer) {
         const props = feature.properties
         const popup = `
-					<b>${props.Informant}</b>
+                    <b>${props.Informant}</b> (<b>${props.Sex}</b>)
 					<br>Education: ${props.Education_level}<br>
 				`
         layer.bindTooltip(popup, {
