@@ -359,7 +359,7 @@ var age = L.geoJson(age, {
     onEachFeature: function (feature, layer) {
         const props = feature.properties
         const popup = `
-					<b>${props.Informant}</b>
+                    <b>${props.Informant}</b> (<b>${props.Sex}</b>)
 					<br>Age: ${props.Age}<br>
 				`
         layer.bindTooltip(popup, {
