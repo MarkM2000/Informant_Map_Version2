@@ -417,7 +417,42 @@ var education = L.geoJson(education, {
     }
 })
 
-/// Add variables for occupation
+/// Add variable for occupation
+var occupation = L.geoJson(occupation, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, {
+            color: '#1f78b4',
+            weight: 1,
+            fillColor: '#000000',
+            fillOpacity: .8,
+            radius: 10
+        });
+    },
+    onEachFeature: function (feature, layer) {
+        const props = feature.properties
+        const popup = `
+					<b>${props.Informant}</b>
+					<br>Occupation: ${props.Occupation}<br>
+				`
+        layer.bindTooltip(popup, {
+            className: 'tool-informant'
+        });
+
+        layer.on('mouseover', function () {
+            // code goes in here
+            layer.setStyle({
+                fillColor: 'black'
+            });
+        });
+        layer.on('mouseout', function () {
+            // code goes in here
+            layer.setStyle({
+                fillColor: '#000000'
+            });
+        });
+    }
+})
+
 var clerical = L.geoJson(clerical, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, {
