@@ -288,7 +288,7 @@ var white = L.geoJson(white, {
     onEachFeature: function (feature, layer) {
         const props = feature.properties
         const popup = `
-					<b>${props.Informant}</b>
+                    <b>${props.Informant}</b> (<b>${props.Sex}</b>)
 					<br>Ethnicity: ${props.Ethnicity}<br>
 				`
         layer.bindTooltip(popup, {
@@ -323,7 +323,7 @@ var black = L.geoJson(black, {
     onEachFeature: function (feature, layer) {
         const props = feature.properties
         const popup = `
-					<b>${props.Informant}</b>
+                    <b>${props.Informant}</b> (<b>${props.Sex}</b>)
 					<br>Ethnicity: ${props.Ethnicity}<br>
 				`
         layer.bindTooltip(popup, {
@@ -431,7 +431,7 @@ var farmer = L.geoJson(farmer, {
     onEachFeature: function (feature, layer) {
         const props = feature.properties
         const popup = `
-					<b>${props.Informant}</b>
+                    <b>${props.Informant}</b> (<b>${props.Sex}</b>)
 					<br>Occupation: ${props.Occupation}<br>
 				`
         layer.bindTooltip(popup, {
@@ -466,7 +466,7 @@ var occupation = L.geoJson(occupation, {
     onEachFeature: function (feature, layer) {
         const props = feature.properties
         const popup = `
-					<b>${props.Informant}</b>
+                    <b>${props.Informant}</b> (<b>${props.Sex}</b>)
 					<br>Occupation: ${props.Occupation}<br>
 				`
         layer.bindTooltip(popup, {
