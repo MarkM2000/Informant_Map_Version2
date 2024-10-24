@@ -387,7 +387,7 @@ var education = L.geoJson(education, {
         return L.circleMarker(latlng, {
             color: '#1f78b4',
             weight: 1,
-            fillColor: '#1c375b',
+            fillColor: '#0D98BA',
             fillOpacity: .8,
             radius: 10
         });
@@ -405,13 +405,13 @@ var education = L.geoJson(education, {
         layer.on('mouseover', function () {
             // code goes in here
             layer.setStyle({
-                fillColor: 'gray'
+                fillColor: '#0D98BA'
             });
         });
         layer.on('mouseout', function () {
             // code goes in here
             layer.setStyle({
-                fillColor: '#1c375b'
+                fillColor: '#0D98BA'
             });
         });
     }
