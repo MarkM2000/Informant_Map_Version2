@@ -29,6 +29,7 @@
 }
 
 .leaflet-layerstree-header-name {
+    margin-left: 4px;
 }
 
 .leaflet-layerstree-header-space {
