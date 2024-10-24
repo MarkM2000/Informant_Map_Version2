@@ -351,7 +351,7 @@ var age = L.geoJson(age, {
         return L.circleMarker(latlng, {
             color: '#1f78b4',
             weight: 1,
-            fillColor: '#83b9ab',
+            fillColor: '#FF0000',
             fillOpacity: .8,
             radius: 10
         });
@@ -369,13 +369,13 @@ var age = L.geoJson(age, {
         layer.on('mouseover', function () {
             // code goes in here
             layer.setStyle({
-                fillColor: 'black'
+                fillColor: '#FF0000'
             });
         });
         layer.on('mouseout', function () {
             // code goes in here
             layer.setStyle({
-                fillColor: '#83b9ab'
+                fillColor: '#FF0000'
             });
         });
     }
