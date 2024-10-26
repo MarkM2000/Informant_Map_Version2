@@ -20046,7 +20046,7 @@ var occupation = {
       "properties": {
         "Informant": "MA47",
         "Sex": "Male",
-        "Occupation": "Operative"
+        "Occupation": "Operatives"
       },
       "geometry": {
         "type": "Point",
@@ -20061,7 +20061,7 @@ var occupation = {
       "properties": {
         "Informant": "MS602",
         "Sex": "Female",
-        "Occupation": "Operative"
+        "Occupation": "Operator"
       },
       "geometry": {
         "type": "Point",
@@ -20076,7 +20076,7 @@ var occupation = {
       "properties": {
         "Informant": "TN029",
         "Sex": "Male",
-        "Occupation": "Operative"
+        "Occupation": "Operator"
       },
       "geometry": {
         "type": "Point",
@@ -20091,7 +20091,7 @@ var occupation = {
       "properties": {
         "Informant": "TN038",
         "Sex": "Male",
-        "Occupation": "Operative"
+        "Occupation": "Operator"
       },
       "geometry": {
         "type": "Point",
@@ -20106,7 +20106,7 @@ var occupation = {
       "properties": {
         "Informant": "TN041",
         "Sex": "Male",
-        "Occupation": "Operative"
+        "Occupation": "Operator"
       },
       "geometry": {
         "type": "Point",
@@ -20121,7 +20121,7 @@ var occupation = {
       "properties": {
         "Informant": "TN044",
         "Sex": "Female",
-        "Occupation": "Operative"
+        "Occupation": "Operator"
       },
       "geometry": {
         "type": "Point",
@@ -20136,7 +20136,7 @@ var occupation = {
       "properties": {
         "Informant": "TN056",
         "Sex": "Male",
-        "Occupation": "Operative"
+        "Occupation": "Operator"
       },
       "geometry": {
         "type": "Point",
@@ -20151,7 +20151,7 @@ var occupation = {
       "properties": {
         "Informant": "TX900",
         "Sex": "Male",
-        "Occupation": "Operative"
+        "Occupation": "Operator"
       },
       "geometry": {
         "type": "Point",
@@ -20226,7 +20226,7 @@ var occupation = {
       "properties": {
         "Informant": "NY7J!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20241,7 +20241,7 @@ var occupation = {
       "properties": {
         "Informant": "NY8",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20256,7 +20256,7 @@ var occupation = {
       "properties": {
         "Informant": "NY9A",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20271,7 +20271,7 @@ var occupation = {
       "properties": {
         "Informant": "NY12A",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20286,7 +20286,7 @@ var occupation = {
       "properties": {
         "Informant": "NY13B!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20301,7 +20301,7 @@ var occupation = {
       "properties": {
         "Informant": "NY24B!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20316,7 +20316,7 @@ var occupation = {
       "properties": {
         "Informant": "NY45D!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20331,7 +20331,7 @@ var occupation = {
       "properties": {
         "Informant": "PA28B!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20346,7 +20346,7 @@ var occupation = {
       "properties": {
         "Informant": "PA34C!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20361,7 +20361,7 @@ var occupation = {
       "properties": {
         "Informant": "PA52A",
         "Sex": "Male",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20376,7 +20376,7 @@ var occupation = {
       "properties": {
         "Informant": "WV37B!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20391,7 +20391,7 @@ var occupation = {
       "properties": {
         "Informant": "WV38A",
         "Sex": "Male",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20406,7 +20406,7 @@ var occupation = {
       "properties": {
         "Informant": "WV38B",
         "Sex": "Male",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20421,7 +20421,7 @@ var occupation = {
       "properties": {
         "Informant": "MD1A",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20436,7 +20436,7 @@ var occupation = {
       "properties": {
         "Informant": "MD4A",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20451,7 +20451,7 @@ var occupation = {
       "properties": {
         "Informant": "MD6A",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20466,7 +20466,7 @@ var occupation = {
       "properties": {
         "Informant": "MD12A",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20481,7 +20481,7 @@ var occupation = {
       "properties": {
         "Informant": "MD13D!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20496,7 +20496,7 @@ var occupation = {
       "properties": {
         "Informant": "MD13E!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20511,7 +20511,7 @@ var occupation = {
       "properties": {
         "Informant": "VA1!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20526,7 +20526,7 @@ var occupation = {
       "properties": {
         "Informant": "VA8C!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20541,7 +20541,7 @@ var occupation = {
       "properties": {
         "Informant": "VA19B",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20556,7 +20556,7 @@ var occupation = {
       "properties": {
         "Informant": "VA19C!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20571,7 +20571,7 @@ var occupation = {
       "properties": {
         "Informant": "VA20B",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20586,7 +20586,7 @@ var occupation = {
       "properties": {
         "Informant": "VA23A",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20601,7 +20601,7 @@ var occupation = {
       "properties": {
         "Informant": "VA23B",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20616,7 +20616,7 @@ var occupation = {
       "properties": {
         "Informant": "VA24",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20631,7 +20631,7 @@ var occupation = {
       "properties": {
         "Informant": "VA28B",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20646,7 +20646,7 @@ var occupation = {
       "properties": {
         "Informant": "VA30D!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20661,7 +20661,7 @@ var occupation = {
       "properties": {
         "Informant": "VA51C",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20676,7 +20676,7 @@ var occupation = {
       "properties": {
         "Informant": "NC9B",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20691,7 +20691,7 @@ var occupation = {
       "properties": {
         "Informant": "NC14C!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20706,7 +20706,7 @@ var occupation = {
       "properties": {
         "Informant": "NC18B",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20721,7 +20721,7 @@ var occupation = {
       "properties": {
         "Informant": "NC28C",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20736,7 +20736,7 @@ var occupation = {
       "properties": {
         "Informant": "NC32B!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20751,7 +20751,7 @@ var occupation = {
       "properties": {
         "Informant": "NC63A",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20766,7 +20766,7 @@ var occupation = {
       "properties": {
         "Informant": "NC70A",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20781,7 +20781,7 @@ var occupation = {
       "properties": {
         "Informant": "SC3C!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20796,7 +20796,7 @@ var occupation = {
       "properties": {
         "Informant": "GA1F!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20811,7 +20811,7 @@ var occupation = {
       "properties": {
         "Informant": "GA16A",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20826,7 +20826,7 @@ var occupation = {
       "properties": {
         "Informant": "GA29B",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20841,7 +20841,7 @@ var occupation = {
       "properties": {
         "Informant": "GA33A",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20856,7 +20856,7 @@ var occupation = {
       "properties": {
         "Informant": "GA37F!",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20871,7 +20871,7 @@ var occupation = {
       "properties": {
         "Informant": "GA42A",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20886,7 +20886,7 @@ var occupation = {
       "properties": {
         "Informant": "MA102",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20901,7 +20901,7 @@ var occupation = {
       "properties": {
         "Informant": "NH156",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20916,7 +20916,7 @@ var occupation = {
       "properties": {
         "Informant": "NH180",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20931,7 +20931,7 @@ var occupation = {
       "properties": {
         "Informant": "MA326",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20946,7 +20946,7 @@ var occupation = {
       "properties": {
         "Informant": "MA289",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20961,7 +20961,7 @@ var occupation = {
       "properties": {
         "Informant": "RI115",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20976,7 +20976,7 @@ var occupation = {
       "properties": {
         "Informant": "MA13",
         "Sex": "Male",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -20991,7 +20991,7 @@ var occupation = {
       "properties": {
         "Informant": "MA27",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -21006,7 +21006,7 @@ var occupation = {
       "properties": {
         "Informant": "MA9",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -21021,7 +21021,7 @@ var occupation = {
       "properties": {
         "Informant": "ME248",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -21036,7 +21036,7 @@ var occupation = {
       "properties": {
         "Informant": "TN001",
         "Sex": "Female",
-        "Occupation": "Other"
+        "Occupation": "Other (see notes)"
       },
       "geometry": {
         "type": "Point",
@@ -21081,7 +21081,7 @@ var occupation = {
       "properties": {
         "Informant": "TN027A",
         "Sex": "Female",
-        "Occupation": "Private household worker or gardener"
+        "Occupation": "Private household work or gardener"
       },
       "geometry": {
         "type": "Point",
@@ -21096,7 +21096,7 @@ var occupation = {
       "properties": {
         "Informant": "TN052",
         "Sex": "Female",
-        "Occupation": "Private household worker or gardener"
+        "Occupation": "Private household work orGardener"
       },
       "geometry": {
         "type": "Point",
@@ -21516,7 +21516,7 @@ var occupation = {
       "properties": {
         "Informant": "WI4A",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21531,7 +21531,7 @@ var occupation = {
       "properties": {
         "Informant": "MI10A",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21546,7 +21546,7 @@ var occupation = {
       "properties": {
         "Informant": "IN4B",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21561,7 +21561,7 @@ var occupation = {
       "properties": {
         "Informant": "IN10C",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21576,7 +21576,7 @@ var occupation = {
       "properties": {
         "Informant": "IL11B",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21591,7 +21591,7 @@ var occupation = {
       "properties": {
         "Informant": "IL11C",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21606,7 +21606,7 @@ var occupation = {
       "properties": {
         "Informant": "IL12M",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21621,7 +21621,7 @@ var occupation = {
       "properties": {
         "Informant": "IL12Q",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21636,7 +21636,7 @@ var occupation = {
       "properties": {
         "Informant": "IL13D",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21651,7 +21651,7 @@ var occupation = {
       "properties": {
         "Informant": "KY7F",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21666,7 +21666,7 @@ var occupation = {
       "properties": {
         "Informant": "AL337",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21681,7 +21681,7 @@ var occupation = {
       "properties": {
         "Informant": "AL385C",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21696,7 +21696,7 @@ var occupation = {
       "properties": {
         "Informant": "AL418",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21711,7 +21711,7 @@ var occupation = {
       "properties": {
         "Informant": "AL436",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21726,7 +21726,7 @@ var occupation = {
       "properties": {
         "Informant": "AL485",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21741,7 +21741,7 @@ var occupation = {
       "properties": {
         "Informant": "AR710",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21756,7 +21756,7 @@ var occupation = {
       "properties": {
         "Informant": "FL226",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21771,7 +21771,7 @@ var occupation = {
       "properties": {
         "Informant": "FL271",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21786,7 +21786,7 @@ var occupation = {
       "properties": {
         "Informant": "FL280",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21801,7 +21801,7 @@ var occupation = {
       "properties": {
         "Informant": "GA103",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21816,7 +21816,7 @@ var occupation = {
       "properties": {
         "Informant": "GA134E",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21831,7 +21831,7 @@ var occupation = {
       "properties": {
         "Informant": "LA650B",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21846,7 +21846,7 @@ var occupation = {
       "properties": {
         "Informant": "MS590",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21861,7 +21861,7 @@ var occupation = {
       "properties": {
         "Informant": "MS614",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21876,7 +21876,7 @@ var occupation = {
       "properties": {
         "Informant": "MS624",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21891,7 +21891,7 @@ var occupation = {
       "properties": {
         "Informant": "AL339",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21906,7 +21906,7 @@ var occupation = {
       "properties": {
         "Informant": "AL356",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21921,7 +21921,7 @@ var occupation = {
       "properties": {
         "Informant": "AL361",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21936,7 +21936,7 @@ var occupation = {
       "properties": {
         "Informant": "AL365A",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21951,7 +21951,7 @@ var occupation = {
       "properties": {
         "Informant": "AL375",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21966,7 +21966,7 @@ var occupation = {
       "properties": {
         "Informant": "AL387",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21981,7 +21981,7 @@ var occupation = {
       "properties": {
         "Informant": "AL412",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -21996,7 +21996,7 @@ var occupation = {
       "properties": {
         "Informant": "AL417A",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22011,7 +22011,7 @@ var occupation = {
       "properties": {
         "Informant": "AL436C",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22026,7 +22026,7 @@ var occupation = {
       "properties": {
         "Informant": "AL446",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22041,7 +22041,7 @@ var occupation = {
       "properties": {
         "Informant": "AL447",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22056,7 +22056,7 @@ var occupation = {
       "properties": {
         "Informant": "AR721",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22071,7 +22071,7 @@ var occupation = {
       "properties": {
         "Informant": "AR725",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22086,7 +22086,7 @@ var occupation = {
       "properties": {
         "Informant": "AR735",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22101,7 +22101,7 @@ var occupation = {
       "properties": {
         "Informant": "AR751",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22116,7 +22116,7 @@ var occupation = {
       "properties": {
         "Informant": "FL249",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22131,7 +22131,7 @@ var occupation = {
       "properties": {
         "Informant": "FL255A",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22146,7 +22146,7 @@ var occupation = {
       "properties": {
         "Informant": "FL274",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22161,7 +22161,7 @@ var occupation = {
       "properties": {
         "Informant": "FL285",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22176,7 +22176,7 @@ var occupation = {
       "properties": {
         "Informant": "FL461",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22191,7 +22191,7 @@ var occupation = {
       "properties": {
         "Informant": "FL470",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22206,7 +22206,7 @@ var occupation = {
       "properties": {
         "Informant": "GA073",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22221,7 +22221,7 @@ var occupation = {
       "properties": {
         "Informant": "GA075",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22236,7 +22236,7 @@ var occupation = {
       "properties": {
         "Informant": "GA119C",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22251,7 +22251,7 @@ var occupation = {
       "properties": {
         "Informant": "GA158",
         "Sex": "",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22266,7 +22266,7 @@ var occupation = {
       "properties": {
         "Informant": "GA183",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22281,7 +22281,7 @@ var occupation = {
       "properties": {
         "Informant": "GA203C",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22296,7 +22296,7 @@ var occupation = {
       "properties": {
         "Informant": "LA657",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22311,7 +22311,7 @@ var occupation = {
       "properties": {
         "Informant": "LA657X",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22326,7 +22326,7 @@ var occupation = {
       "properties": {
         "Informant": "LA673",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22341,7 +22341,7 @@ var occupation = {
       "properties": {
         "Informant": "MS533",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22356,7 +22356,7 @@ var occupation = {
       "properties": {
         "Informant": "MS546",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22371,7 +22371,7 @@ var occupation = {
       "properties": {
         "Informant": "TN040",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22386,7 +22386,7 @@ var occupation = {
       "properties": {
         "Informant": "TN054A",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22401,7 +22401,7 @@ var occupation = {
       "properties": {
         "Informant": "TN312",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22416,7 +22416,7 @@ var occupation = {
       "properties": {
         "Informant": "TX831",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22431,7 +22431,7 @@ var occupation = {
       "properties": {
         "Informant": "TX877",
         "Sex": "Male",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -22446,7 +22446,7 @@ var occupation = {
       "properties": {
         "Informant": "TX905",
         "Sex": "Female",
-        "Occupation": "Professional or technical"
+        "Occupation": "Professional & technical"
       },
       "geometry": {
         "type": "Point",
@@ -26991,7 +26991,7 @@ var occupation = {
       "properties": {
         "Informant": "GA23F!",
         "Sex": "Female",
-        "Occupation": "Teacher"
+        "Occupation": "Teaacher"
       },
       "geometry": {
         "type": "Point",
@@ -29811,7 +29811,7 @@ var occupation = {
       "properties": {
         "Informant": "MA125",
         "Sex": "Male",
-        "Occupation": "Unknown"
+        "Occupation": "N/A"
       },
       "geometry": {
         "type": "Point",
@@ -29826,7 +29826,7 @@ var occupation = {
       "properties": {
         "Informant": "CT215",
         "Sex": "Female",
-        "Occupation": "Unknown"
+        "Occupation": "N/A"
       },
       "geometry": {
         "type": "Point",
@@ -29841,7 +29841,7 @@ var occupation = {
       "properties": {
         "Informant": "MA211",
         "Sex": "Male",
-        "Occupation": "Unknown"
+        "Occupation": "N/A"
       },
       "geometry": {
         "type": "Point",
@@ -29856,7 +29856,7 @@ var occupation = {
       "properties": {
         "Informant": "ME86",
         "Sex": "Unknown",
-        "Occupation": "Unknown"
+        "Occupation": "N/A"
       },
       "geometry": {
         "type": "Point",
