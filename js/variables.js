@@ -349,7 +349,7 @@ var black = L.geoJson(black, {
 var age = L.geoJson(age, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, {
-            color: '#FF0000',
+            color: '#1f78b4',
             weight: 1,
             fillColor: '#dc3545',
             fillOpacity: .8,
