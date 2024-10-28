@@ -6,6 +6,6 @@ This map involves the use of <a href="https://geojson.io/">the GeoJSon IO featur
 
 This map involves JS files created from the <a href="https://geojson.io/">the GeoJSon IO feature</a> such as `LAGS.js`.
 
-This map involves features from the Leaflet plug-in feature `L.Control.Layers.Tree`. The link is <a href="https://github.com/jjimenezshaw/Leaflet.Control.Layers.Tree">here</a>
+This map involves features from the Leaflet plug-in feature `L.Control.Layers.Tree`. The link to access the file itself is <a href="https://github.com/jjimenezshaw/Leaflet.Control.Layers.Tree">here</a>. To find the feature, click <a href="https://leafletjs.com/plugins.html">here</a>.
 
 The `BaseTree` variable is how the legend was created. It also involves using `L.control.layers.tree(baseTree).addTo(map)`.
