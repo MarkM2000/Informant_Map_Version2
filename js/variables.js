@@ -456,9 +456,9 @@ var farmer = L.geoJson(farmer, {
 var occupation = L.geoJson(occupation, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, {
-            color: '#1f78b4',
+            color: '#284409',
             weight: 1,
-            fillColor: '#284409',
+            fillColor: '#198754',
             fillOpacity: .8,
             radius: 10
         });
@@ -476,13 +476,13 @@ var occupation = L.geoJson(occupation, {
         layer.on('mouseover', function () {
             // code goes in here
             layer.setStyle({
-                fillColor: '#284409'
+                fillColor: '#198754'
             });
         });
         layer.on('mouseout', function () {
             // code goes in here
             layer.setStyle({
-                fillColor: '#284409'
+                fillColor: '#198754'
             });
         });
     }
