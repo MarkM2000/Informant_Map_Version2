@@ -215,9 +215,9 @@ var unknown = L.geoJson(unknown, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, {
             color: '#5a7485',
-            weight: 1,
+            weight: .5,
             fillColor: '#240436',
-            fillOpacity: .5,
+            fillOpacity: .8,
             radius: 10
         });
     },
