@@ -313,9 +313,9 @@ var white = L.geoJson(white, {
 var black = L.geoJson(black, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, {
-            color: 'red',
+            color: '#FF0000',
             weight: 1,
-            fillColor: 'black',
+            fillColor: '#000000',
             fillOpacity: .8,
             radius: 10
         });
@@ -333,13 +333,13 @@ var black = L.geoJson(black, {
         layer.on('mouseover', function () {
             // code goes in here
             layer.setStyle({
-                fillColor: 'black'
+                fillColor: '#000000'
             });
         });
         layer.on('mouseout', function () {
             // code goes in here
             layer.setStyle({
-                fillColor: 'black'
+                fillColor: '#000000'
             });
         });
     }
