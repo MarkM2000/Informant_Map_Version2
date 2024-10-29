@@ -217,8 +217,8 @@ var unknown = L.geoJson(unknown, {
             color: '#5a7485',
             weight: 1,
             fillColor: '#240436',
-            fillOpacity: .8,
-            radius: 5
+            fillOpacity: .5,
+            radius: 10
         });
     },
     onEachFeature: function (feature, layer) {
