@@ -199,7 +199,7 @@ var male = L.geoJson(male, {
         layer.on('mouseover', function () {
             // code goes in here
             layer.setStyle({
-                fillColor: 'blue'
+                fillColor: '#2986cc'
             });
         });
         layer.on('mouseout', function () {
