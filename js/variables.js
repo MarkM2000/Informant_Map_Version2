@@ -313,7 +313,7 @@ var white = L.geoJson(white, {
 var black = L.geoJson(black, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, {
-            color: 'white',
+            color: 'red',
             weight: 1,
             fillColor: 'black',
             fillOpacity: .8,
